@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:IntegrationService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83c37ce9-2247-4e51-8871-498fd43e8bdf">
+  <producedTypes>
+    <managerType typeId="3d6935be-8f19-47e7-83a7-080912f00b6a" valueTypeId="110227e4-ba1c-4404-b371-f6384d75965f"/>
+  </producedTypes>
+  <name>шинаСервисИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис интеграции</value>
+  </synonym>
+  <integrationServiceChannels uuid="cf12817b-7a8f-487e-ab8e-335538edece6">
+    <producedTypes>
+      <managerType typeId="ccd9dd5d-1d7e-4903-81ff-ca5e836b7d99" valueTypeId="48edd73f-2b42-4ab3-a21c-97149a264fee"/>
+    </producedTypes>
+    <name>Основной_ОдинИсточник_ДваПриемника_ИзЗУП</name>
+    <externalIntegrationServiceChannelName>Основной::ОдинИсточник_ДваПриемника.ИзЗУП</externalIntegrationServiceChannelName>
+    <transactioned>true</transactioned>
+  </integrationServiceChannels>
+</mdclass:IntegrationService>

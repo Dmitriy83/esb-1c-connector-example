@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b98dc86-3d65-4cd2-9654-f0ca46939d64">
+  <name>шинаОбменСШиной1ССправочникПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с шиной 1С справочник при записи</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ФизическиеЛица</types>
+    <types>CatalogObject.Сотрудники</types>
+    <types>CatalogObject.СтруктураПредприятия</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.шинаОбменСШиной1С.шинаОбменСШиной1ССправочникПриЗаписиПриЗаписи</handler>
+</mdclass:EventSubscription>

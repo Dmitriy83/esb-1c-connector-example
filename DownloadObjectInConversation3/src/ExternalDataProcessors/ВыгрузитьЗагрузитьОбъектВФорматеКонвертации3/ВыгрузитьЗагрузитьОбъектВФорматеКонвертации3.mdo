@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b226ae75-9e6e-47f3-93c0-a1dd3a998ffe">
+  <producedTypes>
+    <objectType typeId="dfb40e93-7720-498a-8906-d1e1568ad13c" valueTypeId="5e80b705-6813-4a00-bb70-ba39ee871095"/>
+  </producedTypes>
+  <name>ВыгрузитьЗагрузитьОбъектВФорматеКонвертации3</name>
+  <synonym>
+    <key>en</key>
+    <value>Download object in Conversation 3</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузить/загрузить объект в формате Конвертации 3</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="fada87fe-0fd7-4109-9e28-4749d5b4c0aa"/>
+  <defaultForm>ExternalDataProcessor.ВыгрузитьЗагрузитьОбъектВФорматеКонвертации3.Form.Form</defaultForm>
+  <attributes uuid="39c4d84d-f55a-451d-b72e-4b05c4628e48">
+    <name>СсылкаДляВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка для выгрузки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+      <types>CatalogRef.Сотрудники</types>
+      <types>CatalogRef.СтруктураПредприятия</types>
+      <types>CatalogRef.Контрагенты</types>
+      <types>DocumentRef.ДоговорРаботыУслуги</types>
+      <types>CatalogRef.ГрафикиРаботыСотрудников</types>
+      <types>CatalogRef.Должности</types>
+      <types>CatalogRef.ПодразделенияОрганизаций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="00e57fe2-c0e5-4075-aaf3-dc6b547369b7">
+    <name>Form</name>
+    <synonym>
+      <key>ru</key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>

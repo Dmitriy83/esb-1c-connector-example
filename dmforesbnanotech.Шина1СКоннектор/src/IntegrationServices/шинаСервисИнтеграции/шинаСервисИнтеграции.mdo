@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:IntegrationService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83c37ce9-2247-4e51-8871-498fd43e8bdf">
+  <producedTypes>
+    <managerType typeId="3d6935be-8f19-47e7-83a7-080912f00b6a" valueTypeId="110227e4-ba1c-4404-b371-f6384d75965f"/>
+  </producedTypes>
+  <name>шинаСервисИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис интеграции</value>
+  </synonym>
+  <integrationServiceChannels uuid="82d84ffe-396a-4403-b5ea-055817c43aa6">
+    <producedTypes>
+      <managerType typeId="6f5b444e-ea20-408c-840c-6876bfafc2ec" valueTypeId="9635f00b-c800-4290-b079-1d2e63ae6be8"/>
+    </producedTypes>
+    <name>Основной_ОдинИсточник_ДваПриемника_ВДокументооборот</name>
+    <externalIntegrationServiceChannelName>Основной::ОдинИсточник_ДваПриемника.ВДокументооборот</externalIntegrationServiceChannelName>
+    <messageDirection>Receive</messageDirection>
+    <receiveMessageProcessing>Основной_ОдинИсточник_ДваПриемника_ВДокументооборотОбработкаПолученияСообщения</receiveMessageProcessing>
+    <transactioned>true</transactioned>
+  </integrationServiceChannels>
+</mdclass:IntegrationService>

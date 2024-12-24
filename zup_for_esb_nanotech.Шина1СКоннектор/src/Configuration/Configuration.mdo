@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fbe47fd0-4915-4e74-b769-43e0c0609c9a">
+  <name>Шина1СКоннектор</name>
+  <synonym>
+    <key>en</key>
+    <value>Коннектор с Шина 1С</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <commandInterface>Extended</commandInterface>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="ad14fcdd-d72b-47d1-b1c6-4e732eb048cc"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="229cc0ea-e7e3-42e9-a1a6-98abebc2747d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="781daa5e-635d-41c7-8610-24ba3c5b0b62"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="956f49c3-0abd-40f1-9812-bb36c6132b1f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="aa2edccb-a22a-4b31-a89c-778438ff3cce"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="ff9a86ed-f2f6-4161-b93e-31a2dcde2d00"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="264760b2-351b-470e-8267-389ba1ff57d8"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>шина</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
+  <languages uuid="f901fc4e-a167-4c62-b656-6bbe16ad0f47">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonModules>CommonModule.МенеджерОбменаЧерезУниверсальныйФормат</commonModules>
+  <commonModules>CommonModule.шинаОбменСШиной1С</commonModules>
+  <eventSubscriptions>EventSubscription.шинаОбменСШиной1ССправочникПриЗаписи</eventSubscriptions>
+  <scheduledJobs>ScheduledJob.шинаОбменСШиной1С</scheduledJobs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.СтруктураПредприятия</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <integrationServices>IntegrationService.шинаСервисИнтеграции</integrationServices>
+</mdclass:Configuration>

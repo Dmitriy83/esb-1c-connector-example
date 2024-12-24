@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a56e6b9-6d61-4a94-adf0-e98c62ef2539">
+  <name>шинаОбменСШиной1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с Шиной 1С</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
